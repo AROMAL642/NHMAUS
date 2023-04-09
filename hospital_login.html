@@ -20,6 +20,7 @@
 		}
 		
 		input[type=text], input[type=password] {
+		  background-color:#9999ff;
 			padding: 10px;
 			border-radius: 5px;
 			border: none;
@@ -37,7 +38,7 @@
 		}
 		
 		input[type=submit]:hover {
-			background-color: #555;
+			background-color: #00ff00;
 		}
 	</style>
 </head>
@@ -46,13 +47,16 @@
 	<h1>Hospital Login</h1><br>
 
 	
-	<form>
-		<input type="text" placeholder="Username">
+	<form action="sample_login.php" method="post">
+		<input type="text" placeholder="Username" name="username" id="username">
 		<br>
-		<input type="password" placeholder="Password">
+		<input type="password" placeholder="Password" name="password" id="password">
 		<br>
 		<input type="submit" value="Login">
 	</form>
+	
+	
+	
 	<div class="copyright_section">
       <div class="container">
         <p class="copyright">2023 All Rights Reserved. Design by NHMAUS</a></p>
@@ -60,4 +64,3 @@
     </div>
 </body>
 </html>
-
