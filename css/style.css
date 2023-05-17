@@ -417,12 +417,22 @@ button {
 .care_section{
      width: 100%;
      float: left;
-     background-image: url(../images/care-bg.png);
+     background-image: url(../images/img.png);
      height: auto;
      background-size:cover;
      background-repeat: no-repeat;
      padding-bottom: 90px;
 }
+
+.user_portal{
+     width: 100%;
+     float: left;
+     background-image: url(../images/user_portal_bg.png);
+     height: auto;
+     background-size:cover;
+     background-repeat: no-repeat;
+     padding-bottom: 90px;
+
 .care_taital {
     width: 75%;
     float: left;
@@ -439,7 +449,7 @@ button {
      width: 100%;
      float: left;
      font-size: 28px;
-     color: #ffffff;
+     color: #000000;
      font-weight: bold;
      text-align: right;
 }
@@ -634,13 +644,8 @@ button {
 .carousel-indicators {
      bottom: -60px;
 }
-.appointment_section {
-    width: 100%;
-    float: left;
-    background-color: #09d066;
-    border-top: 2px solid #0aaa54;
-    padding-bottom: 50px;
-}
+
+
 .need_text {
     width: 100%;
     float: left;
@@ -806,4 +811,3 @@ button {
 
 }
 .mobile_header{ display: none; }
-
